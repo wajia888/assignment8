@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color:lightblue;
+        }
+        
+        .container {
+            max-width: 800px;
+            margin: 40px auto;
+            padding: 30px;
+            background-color: lightpink;
+            border: solid black 3px
+            
+        }
+        
+        h1 {
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        
+        .contact-info {
+            margin-bottom: 40px;
+        }
+        
+        .contact-info p {
+            margin-bottom: 20px;
+        }
+        
+        form {
+            display: flex;
+            flex-direction: column;
+        }
+        
+        label {
+            display: block;
+            margin-bottom: 10px;
+        }
+        
+        input, textarea {
+            width: 100%;
+            padding: 10px;
+            border: 3px solid black;
+            border-radius: 5px;
+            margin-bottom: 20px;
+        }
+        
+        button[type="submit"] {
+            background-color: lightgrey;
+            color: solid black;
+            padding: 10px 20px;
+            border: 4px solid black;
+            border-radius: 5px;
+            cursor: pointer;
+        }
+        
+        button[type="submit"]:hover {
+            background-color: gray;
+        }
+    </style>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CONTACT</title>
+
+</head>
+<body bgcolor="lightblue" bold>
+    <div class="container">
+        <h1>Contact Us</h1>
+        <div class="contact-info">
+            <h2> <b>Get  in Touch</b></Get></h2>
+          <h2>  <p><b>Phone: 03350980325</b></p></h2>
+         <h2><p><b>Email: <a href="wajiaaslm56@gamil.com"></a>wajiaaslam56@gmail.com</a></b></p></h2>
+          <h2><p><b>Address: 123 Main St, Anytown, pakistan</b></p></h2>
+        </div>
+        <form>
+            <div>
+              <h2> <label for="name"><b>Name:</b></label></h2>
+                <input type="text" id="name" name="name" required>
+            </div>
+            <div>
+              <h2><label for="email"><b>Email:</b></label></h2>
+                <input type="email" id="email" name="email" required>
+            </div>
+            <div>
+              <h2><label for="message"><b>Message:</b></label></h2>
+                <textarea id="message" name="message" required></textarea>
+            </div>
+          <button type="submit"><b> Send Message</b></button>
+        </form>
+    </div>
+    <H2><a href="../index.html">GO BACK</a></H2> 
+</body>
+</html>
